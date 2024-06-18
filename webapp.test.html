@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 
 <body>
     <pre id="content"></pre>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script type="text/javascript">
         const content = document.getElementById('content');
         content.textContent = JSON.stringify(Telegram, undefined, 2);
